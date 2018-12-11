@@ -1,4 +1,4 @@
 import os
-dir = '/root/folder'
+dir = '/dev'
 onlyfiles = next(os.walk(dir))
 print len(onlyfiles)
