@@ -9,4 +9,4 @@ def list_files(startpath):
 		for f in files:
 			print('{}{}'.format(subindent, f))
 
-list_files('/root/folder')
+list_files('/dev')
